@@ -44,3 +44,11 @@ companyEmployees = {
 print(companyEmployees)
 companyEmployees["Engineering"]["David"] = {"age": 27, "role": "Data Scientist"}
 print(companyEmployees)
+
+def countEmployees(companyEmployees):
+    total=0
+    for i in companyEmployees:
+        total=total+len(companyEmployees[i])
+    return total  
+
+print("The total number of employees:" ,countEmployees(companyEmployees))  
