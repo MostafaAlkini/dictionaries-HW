@@ -29,3 +29,16 @@ def wordCount (s):
 
 sentence=input("Enter a sentence: ")
 print(wordCount(sentence))
+
+# Third question
+
+companyEmployees = {
+    "Engineering": {
+        "Alice": {"age": 30, "role": "Software Engineer"},
+        "Bob": {"age": 28, "role": "DevOps Engineer"}
+    },
+    "HR": {
+        "Charlie": {"age": 35, "role": "HR Manager"}
+    }
+}
+print(companyEmployees)
