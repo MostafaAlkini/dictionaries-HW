@@ -14,3 +14,9 @@ dict1 = {"a": 1, "b": 2, "c": 3}
 dict2 = {"b": 10, "d": 4}
 
 combineDictionaries(dict1,dict2)
+
+# Second question
+
+def wordCount (s):
+    words=s.split()
+    
