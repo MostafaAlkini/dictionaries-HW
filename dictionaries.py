@@ -19,4 +19,13 @@ combineDictionaries(dict1,dict2)
 
 def wordCount (s):
     words=s.split()
-    
+    dict={}
+    for i in words:
+        if i in dict:
+            dict[i]=dict[i]+1
+        else:
+            dict[i]=1
+    return dict
+
+sentence=input("Enter a sentence: ")
+print(wordCount(sentence))
